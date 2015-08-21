@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="Game2048.css">
+        <script src="Game2048.js" type="application/ecmascript"></script>
+    </head>
+    <body>
+        <div class="outerContainer">
+  <div class="heading">
+    <h1 class="gamename">2048</h1>
+      <div id="score"> </div>
+  </div>
+  <div class="game">
+    <div class="message">
+      <p></p>
+    <!--  <div class="lower">
+        <a class="retry">Try again</a>
+      </div> -->
+    </div>
+
+    <div id = "container">
+            <div class="grid"></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+        </div>
+        </div>
+  </div>
+        <script>
+            function init() {
+                Game.init();
+            }
+            window.addEventListener('load',init);
+        </script>
+    </body>
+</html>

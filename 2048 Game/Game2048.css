@@ -1,0 +1,190 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: cornsilk;
+  color: black;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px;
+}
+
+body {
+  margin: 80px 100px;
+}
+
+.heading:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+h1.gamename {
+  font-size: 80px;
+  font-weight: bold;
+  margin: 0;
+  display: block;
+  float: left;
+}
+
+.outerContainer {
+    width: 500px;
+    height: 700px;
+    margin: auto auto;
+}
+
+#score {
+    display: inline-block;a
+  position: relative;
+  float: right;
+  background-color: darkgray;
+  padding: 15px 25px;
+  font-size: 20px;
+  height: 30px;;
+  line-height: 35px;
+  font-weight: bold;
+  border-radius: 3px;
+  color: white;
+  margin-top: 8px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 1.65;
+}
+
+//.grid-container {
+  width: auto;
+  margin: 0 auto;
+}
+#container {
+    width: 500px;
+    height: 500px;
+    margin: auto auto;
+    background-color: rgb(187, 173, 160);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid {
+    width: 105px;
+    height: 105px;
+    background-color: rgba(238, 228, 218, 0.35);
+    /background-color: #eee4da;
+    border-radius: 3px;
+    text-align: center;
+    align-content: center;
+    border: 1px solid #eee4da;
+    font-weight: bold;
+    margin: auto auto;
+    font-size: 55px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.two  {
+    background-color: #eee4da;
+    line-height: 95px;
+}
+.four {
+    background: #ede0c8;
+    line-height: 95px;
+}
+.eight  {
+   background: #f2b179;
+    line-height: 95px;
+}
+.sixteen  {
+    background: #f59563;
+    line-height: 95px;
+}
+.thirty-two  {
+    background: #f67c5f;
+    line-height: 95px;
+}
+.sixty-four  {
+     background: #f65e3b; 
+    line-height: 95px;
+}
+.onetwoeight  {
+    background: #edcf72;
+    line-height: 95px;
+}
+.twofivesix  {
+    background: #edcc61;
+    line-height: 95px;
+}
+.fivetwelve  {
+    background: #edc850;
+    line-height: 95px;
+}
+.onetwofour  {
+    background: #edc53f;
+    line-height: 95px;
+}
+.twofoureight  {
+    background: #edc22e;
+    line-height: 95px;
+}
+
+
+.two:after {
+    color: black;
+    content:  "2";
+}
+.four:after {
+    color: black;
+    
+    content:  "4";
+}
+.eight:after {
+    color: black;
+    content:  "8";
+}
+.sixteen:after, .thirty-two:after, .sixty-four:after {
+    font-size: 65px;
+}
+.sixteen:after {
+    color: black;
+    content:  "16";
+}
+.thirty-two:after {
+     color: black;
+    content:  "32";
+}
+.sixty-four:after {
+      color: black;
+    content:  "64";
+}
+
+.onetwoeight:after {
+    content: "128";
+   color: black;
+    font-size: 45px; 
+}
+
+.twofivesix:after {
+    content: "256";
+    color: black;
+    font-size: 45px; 
+}
+   
+
+.fivetwelve:after {
+    content: "512";
+    color: black;
+    font-size: 45px; 
+}
+
+.onetwofour:after {
+    content: "1024";
+    color: black;
+    font-size: 35px; 
+}
+
+.twofoureight:after {
+    content: "2048";
+    color: black; 
+}

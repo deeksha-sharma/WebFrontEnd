@@ -1,0 +1,356 @@
+* {
+    padding: 0;
+}
+h3 {
+    margin-bottom: 0;
+}
+body {
+    margin: 0;
+}
+.h {
+    display: inline-block;
+     width: 30%;
+  text-align: right;
+}
+.logo1 {
+      margin-right: 360px;   
+    padding: 0;
+    margin-top: 6px;
+    width: 79px;
+    height: 29px;
+ 
+}
+#home {
+    padding: 100px 0;   
+    width: 100%;
+    background-image: url("golden/header-bg.jpg");
+   / display: flex;
+    background-size: auto;
+    /height: 700px;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+#fixedbar {
+    background-image: url("golden/header-bg.jpg");
+    background-size: auto;
+    position: fixed;
+    z-index: 1;
+   / height: 41px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+   box-sizing: border-box;
+}
+#fixedbar > nav {
+    width: 60%;
+    margin-right: 20px;
+}
+#fixedbar > nav > ul {
+    display: flex;
+   / flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+}
+li > a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+li > a:hover {
+    color: pink;
+}
+li > a:active {
+    color: lightblue;
+}
+.header {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 200px;
+}
+.header1{
+    font: italic 40px "Droid Serif",serif;
+    color: white;
+}
+.header2{
+    font: "Montserrat",sans-serif;
+    font-size:80px;
+    color: white;
+    margin: auto;
+}
+.header3{
+    font-family: 'Momtserrat',sans-serif;
+    font-size: 18px;
+    margin-top: 5%;
+    display: inline-block;
+    width: 30%;
+    /height: 10%;
+    border-color: yellow;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    line-height: 65px;
+    background-color: #fed136;
+}
+#services {
+    padding: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.service1 {
+    //padding-top: 10px;
+    font: 700 40px "Montserrat",sans-serif;
+    color: black;
+    margin-bottom: 10px;
+}
+.service2 {
+    font: italic 20px "Droid Serif",serif; 
+    color: gray;
+}
+.serviceparts {   
+    margin: 5%;
+    align-items: center;
+}
+.a {
+ display: inline-block;
+    width: 275px;
+ /   flex-direction: column;
+}
+.textservice {
+    font: 400 18px/22px "Roboto Slab",serif;
+   / width: 20%;
+    margin: auto;
+    color: grey;
+}
+#portfolio {
+    text-align: center;
+    background: #f7f7f7;
+    padding: 100px;
+}
+.port1 {
+    font: 700 40px "Montserrat",sans-serif;
+    color: black;
+    margin-bottom: 10px;
+}
+.portimages {
+    display: flex;
+    flex-wrap: wrap;
+    width: 83%;
+    margin: auto;
+    margin-top: 5%;
+    justify-content: space-between;
+    align-items: center;
+    }
+.pm {
+    width: 290px;
+    height: 290px;
+}
+.portimagetext {
+    background-color: white;
+    display: inline-block;
+   / align-items: center;
+    /align-content: center;
+}
+.d2 {
+    margin-top: 4%;
+}
+.textin {
+    margin-top: 0%;
+}
+.textin1 {
+    margin-bottom: 0%;
+}
+#about {
+    padding: 100px;
+    text-align: center;
+}
+.aboutimage {
+    margin: 0% auto;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: thick;
+    position: relative;
+}
+.about1 {
+    //position: absolute;
+    margin-left: 0;
+}
+.liner {
+    height: 0;
+    width: 0;
+    box-sizing: border-box;
+    border-color: lightgray;
+    border-width:53px 2px;
+    border-style: solid;
+    margin: 0 auto;
+}
+#team {
+    background: #f9f9f9;
+    text-align: center;
+    padding: 100px;
+}
+.teamimage {
+  /  display: flex;
+   / justify-content: space-around;
+    width: 60%;
+    margin: 5% auto;
+   }
+.t {
+    /width: 150px;
+    display: inline-block;
+    margin:10px 40px;
+}
+.teamimageinside {
+   / display: inline-block;
+    margin-top: 5%;
+    margin: 5%;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border-style: none;
+}
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    margin: auto;
+}
+.teamend {
+    width: 50%;
+    margin: auto;
+}
+.logo {
+    padding: 60px;
+}
+.logopictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+}
+#contact {
+    padding: 5%;
+    background-image: url(golden/contact-us-bg.jpg);
+/    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
+}
+.contacthead1 {
+    color: white;
+}
+.form {
+    //display: flex;
+    }
+.left {
+  display: inline-block;
+  width: 500px;
+    height: 250px;
+  vertical-align: top;
+  margin-right: 0px;
+}
+.contactleft {
+  width: 450px;
+  height: 50px;
+  border: 0;
+  border-radius: 2px;
+  margin: 15px;
+  margin-right: 5%; 
+  font: 700 14px "Montserrat",sans-serif;
+  color: #bbb;
+  padding-left: 20px;
+  
+}
+.contactright {
+  width: 440px;
+  border: 0;
+  border-radius: 2px;
+  height: 210px;
+  padding: 15px 20px;
+  margin: 15px;
+  margin-left: 0;
+  font: 700 14px "Montserrat",sans-serif;
+  color: #bbb;
+}
+#submit {
+   width: 240px;
+  height: 65px;
+    border-radius: 3px;
+    border-color: #fed136;
+    font: 700 18px/65px "Montserrat",sans-serif;
+  text-decoration: none;
+    color: white;
+  background-color: #fed136;
+    margin-top: 1%;
+}
+footer {
+    text-align: center;
+  position: relative;
+  padding: 30px 0;
+}
+.footeraround {
+    margin: 10px;
+}
+.copywrite {
+      font: 14px "Montserrat",sans-serif;
+  color: #555;
+  margin-right: 700px;
+  display: inline-block;
+}
+.hoverbox:hover {
+    background-color: black;
+    opacity: 0.3;
+}
+.z {
+  position: absolute;
+ height: 41px;
+ top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; 
+}
+#open, #closed {
+    display: none;
+}
+@media screen and (max-width: 880px) {
+    #open {
+        display: block;
+    }
+     #fixedbar:target nav > ul {;
+        height: 200px;
+    }
+    #fixedbar:target #closed {
+        display: block;
+    }
+    body > main > header, #fixedbar > nav > ul {
+        flex-direction: column;
+    }
+    #fixedbar > nav {
+        margin-left: 20px;
+    }
+    .mobile {
+        margin: 10px 20px;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+     #fixedbar > nav > ul {
+        transition: height 1s ease-in-out;
+        height: 0;
+        overflow: hidden;
+        margin: 5px;
+       / padding: 5px;
+    }
+    #fixedbar:target #open {
+        display: none;
+    }
+        
+}
+.upgradehands {
+    margin-top: 50px;
+    color: blue;
+}
